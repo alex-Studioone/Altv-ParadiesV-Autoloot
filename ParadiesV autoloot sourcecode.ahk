@@ -19,7 +19,7 @@ ExitApp
 Numpad1::
 WinGet, WinID, ID, alt:V Multiplayer
 WinActivate, ahk_id %WinID%
-SetTimer, LOOT, 200
+SetTimer, LOOT, 7000
 return
 
 Numpad2::
